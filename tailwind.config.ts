@@ -47,6 +47,26 @@ const config = {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
+        brand: {
+          primary: {
+            100: '#e5f5ff',
+            500: '#0099ff',
+            600: '#007acc',
+          },
+          secondary: {
+            100: '#e6faff',
+            500: '#00ccff',
+          },
+          accent: {
+            500: '#3344ff',
+          },
+          neutral: {
+            0: '#ffffff',
+            100: '#f1f5f9',
+            400: '#94a3b8',
+            900: '#1e293b',
+          },
+        },
       },
       borderRadius: {
         lg: 'var(--radius)',
