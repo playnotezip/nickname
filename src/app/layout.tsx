@@ -1,3 +1,6 @@
+import AdSense from '@/third-parties/AdSense';
+import { GoogleAnalytics } from '@next/third-parties/google'
+import { GA_MEASUREMENT_ID } from './gtag';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
@@ -30,6 +33,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-brand-neutral-100 text-brand-neutral-900 transition-colors duration-200`}
       >
+    <AdSense />
+  {/* Google Analytics */}
+  <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />
         <Providers>
           <AuthProvider>{children}</AuthProvider>
           <Toaster />
