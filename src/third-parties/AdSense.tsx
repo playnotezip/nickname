@@ -12,11 +12,8 @@ export default function AdSense() {
 
   return (
     <>
-      <script
-        async
-        src={`"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}"`}
-        crossOrigin="anonymous"
-      ></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4315383149069646"
+     crossorigin="anonymous"></script>
     </>
   );
 }
