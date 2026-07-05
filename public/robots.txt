@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nickname-six.vercel.app/
+
+# Sitemaps
+Sitemap: https://nickname-six.vercel.app/sitemap.xml
